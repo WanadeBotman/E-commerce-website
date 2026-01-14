@@ -5,7 +5,8 @@
 A modern, high-performance, and fully responsive e-commerce storefront built for AURA, a curated brand specializing in minimalist lifestyle essentials. Designed with a "Bento-grid" hero section, glassmorphism navigation, and a focus on premium user experience to establish brand authority and trust.
 
 ## Live Demo 🚀
-You can view the live website here: Live Demo Link
+You can view the live website here: [Live Demo Link](https://wanadebotman.github.io/E-commerce-website/)
+
 
 ## ✨ Features
 - **📱 Fully Responsive:** Optimized for a seamless shopping experience on All Mobile Devices, Tablets, and Desktops.
