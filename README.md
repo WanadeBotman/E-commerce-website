@@ -1,5 +1,5 @@
 <img width="1896" height="908" alt="Aura-Essentials" src="https://github.com/user-attachments/assets/9be5dddc-6f3e-4fba-815e-fd94671c308b" />
-## 🏗️ AURA | Essentials 2026 E-Commerce Website
+🏗️ AURA | Essentials 2026 E-Commerce Website
 A modern, high-performance, and fully responsive e-commerce storefront built for AURA, a curated brand specializing in minimalist lifestyle essentials. Designed with a "Bento-grid" hero section, glassmorphism navigation, and a focus on premium user experience to establish brand authority and trust.
 
 ## Live Demo 🚀
