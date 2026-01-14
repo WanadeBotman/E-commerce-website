@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURA | Essentials 2026</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <h1 class="logo">AURA<span>.</span></h1>
+            <div class="nav-actions">
+                <div class="cart-trigger" id="cart-btn">
+                    <span class="cart-label">Bag</span>
+                    <span id="cart-count">0</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-bento">
+        <div class="bento-item main-hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <span class="badge">Collection 2026</span>
+                <h2>The Art of <br>Modern Living</h2>
+                <p>Curated essentials for the conscious minimalist.</p>
+                <button class="btn-primary">Shop Collection</button>
+            </div>
+        </div>
+        <div class="bento-item sub-hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h3>Winter Lookbook</h3>
+                <button class="btn-secondary">Explore</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="section-header">
+            <h3>Featured Pieces</h3>
+            <p>Thoughtfully designed, timelessly styled.</p>
+        </div>
+        <div class="product-grid" id="product-list"></div>
+    </main>
+
+    <div class="cart-overlay" id="cart-overlay"></div>
+    <div class="cart-drawer" id="cart-sidebar">
+        <div class="drawer-header">
+            <h3>Your Bag</h3>
+            <i class="ri-close-line" id="close-cart"></i>
+        </div>
+        <div class="cart-items" id="cart-items-container"></div>
+        <div class="cart-footer">
+            <div class="total-row">
+                <span>Total</span>
+                <span id="cart-total">$0.00</span>
+            </div>
+            <button class="checkout-btn" id="checkout-trigger">Checkout Now</button>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal-card">
+            <button class="close-modal" id="close-modal"><i class="ri-close-line"></i></button>
+            <div id="modal-content-body"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
